@@ -1,0 +1,250 @@
+body {
+    margin: 1px;
+
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+    justify-content: space-between;  
+}
+.title{
+    color: white;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+.navlist{
+    display: flex;
+    padding-right: 10%;
+    list-style-type: none;
+    align-items: flex-end;    
+}
+.info{
+    color: white;
+    margin-left: 40px;
+    border-bottom: 2px solid transparent;
+    font-weight: 600;
+} 
+.menu{
+    display: none;
+}
+.portfolio{
+    width: 60%;
+    height: 340px;
+    margin-top: 600px;
+    margin-left: 10%;
+    border: double 4px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-right: hidden;
+    display: flex;
+}
+.ppto{
+    width: 48%;
+    height: 340px;
+    font-size:80px;
+    padding-left: 40px;
+    border-radius: 76.5px;
+    font-family: Copperplate, Papyrus, fantasy;
+    background-image: url() ;
+    color:black;
+    border:2px solid black ;
+    border-left: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+
+}
+.pintro{
+    height: 340px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-family: papyrus;
+    
+}
+.btn{
+    cursor: pointer;
+    float: right;
+    
+}
+.upskill{
+    width: 60%;
+    height: 340px;
+    margin-top: 100px;
+    margin-left: 30%;
+    border: double 4px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-left: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+.uintro{
+    height: 340px;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 60px;
+    font-family: papyrus;
+}
+.btn1{
+    cursor: pointer;
+    float: left;
+    margin-top: 0%;
+}
+.upto{
+    width: 45%;
+    height: 340px;
+    font-size:80px;
+    padding-left: 40px;
+    border-radius: 76.5px;
+    font-family: Copperplate, Papyrus, fantasy;
+    background-image: url() ;
+    color:black;
+    border:2px solid black ;
+    border-right: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.hover_effect {
+  height:100%;
+  width: 95%; 
+}
+ 
+.hover_effect:hover {
+  height: 100%;
+  width: 100%;
+}
+.head{
+    position: relative;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;   
+}
+.content{
+    position:relative;
+    width:50%;
+    height:70%;
+    font-size: larger;
+    color: #0c0b0c;
+    padding-top: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: rgb(250, 234, 8);
+    margin-left: 20%;
+    margin-top: 10px;
+    border: 1px solid #cab70b;
+    border-radius: 10px;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.1);
+
+}
+.content p{
+    font-size: xx-large;
+}
+
+@media(max-width:1294px){
+    .btn{
+        margin-right: 50px;
+
+    }
+    .btn1{
+        margin-left: 50px;
+    }
+}
+@media(max-width:1022px)  {
+    .portfolio{
+        margin-left:15% ;
+        width: 75%;
+    }
+    .upskill{
+         margin-left:10% ;
+         width: 75%;
+    }
+    .pintro{
+        padding-left: 10%;
+    }
+    .ppto{
+        padding-right: 10%;
+    }
+    .upto{
+        padding-right:10% ;
+    }
+}
+@media(max-width:822px){
+    .menu{
+        display: block;
+        width: 3%;
+        height:5%;
+        margin-top: 30%;
+        margin-right: 5%;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: local;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+    }
+    .info{
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+    }
+    .navlist.open{
+        right: 0;
+    }
+}
+@media(max-width:711px){
+    .ppto{
+        border: 0px;
+    }
+    .para{
+       font-size: 0px;
+    }
+    .btn{
+       margin-top: 200%; 
+    }
+    .upto{
+        border: 0px;
+    }
+    .btn1{
+        margin-top: 200%;
+    }
+    
+    }
+    @media(max-width:425px){
+       .logo{
+         font-size: xx-large;
+       }
+       .btn{
+        margin-right: 40px;
+        
+        
+    }
+    }
+    @media(max-width:375px){
+        .btn{
+            margin-right: 30px;
+}
+    }
